@@ -5,4 +5,6 @@ CreateModel first then DB approach. Sample using C# .NET Core and EF Core connec
 
 ![f2](https://user-images.githubusercontent.com/61469290/101337054-39782f80-38a1-11eb-918a-7348e5e7dee9.PNG)
 
+![mk1](https://user-images.githubusercontent.com/61469290/101345817-a396d180-38ad-11eb-9f86-5e22aaa4efac.PNG)
+
 
