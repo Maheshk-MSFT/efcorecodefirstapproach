@@ -2,6 +2,8 @@
 CreateModel first then DB approach. Sample using C# .NET Core and EF Core connecting to SQL Server 
 
 For VS 2019, Package manager commands to generate the model class and context:
+=====================================================================================
+
 PM> Add-Migrate InitialCreate (generate code)
 
 PM> Update-Database (Creates the db tables)
@@ -13,6 +15,7 @@ PM> Update-Database
 src: https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=vs
 
 For VS Code
+=====================================================================================
 dotnet ef migrations add InitialCreate
 
 dotnet ef database update
@@ -20,6 +23,8 @@ dotnet ef database update
 dotnet ef migrations add AddBlogCreatedTimestamp
 
 dotnet ef database update
+
+=====================================================================================
 
 src: https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
 
